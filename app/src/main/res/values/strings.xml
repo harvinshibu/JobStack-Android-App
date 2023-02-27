@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name" translatable="false">Job Stack</string>
+
+    <string-array name="Salary_Period">
+        <item>Hourly</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+        <item>Yearly</item>
+    </string-array>
+
+    <string-array name="Position_type">
+        <item>Contract</item>
+        <item>Full Time</item>
+        <item>Part Time</item>
+        <item>Temporary</item>
+    </string-array>
+    <string-array name="Location_type">
+        <item>Select Location / None</item>
+        <item>Kerala</item>
+        <item>Bangalore</item>
+        <item>India</item>
+        <item>USA</item>
+    </string-array>
+    <string-array name="filter_type">
+        <item>Select Job Category / All Categories</item>
+        <item>Data Entry</item>
+        <item>Bank Office</item>
+        <item>Telecaller</item>
+        <item>Driver</item>
+        <item>Teacher</item>
+        <item>Chef</item>
+        <item>IT</item>
+        <item>Accountant</item>
+        <item>Office Assistant</item>
+        <item>Front Office</item>
+        <item>Designer</item>
+        <item>Delivery</item>
+        <item>Operator</item>
+        <item>Other Jobs</item>
+    </string-array>
+    <string-array name="filter_add">
+        <item>Other Jobs</item>
+        <item>Data Entry</item>
+        <item>Bank Office</item>
+        <item>Telecaller</item>
+        <item>Driver</item>
+        <item>Teacher</item>
+        <item>Chef</item>
+        <item>IT</item>
+        <item>Accountant</item>
+        <item>Office Assistant</item>
+        <item>Front Office</item>
+        <item>Designer</item>
+        <item>Delivery</item>
+        <item>Operator</item>
+
+    </string-array>
+
+</resources>

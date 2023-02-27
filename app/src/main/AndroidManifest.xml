@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PlacementApp">
+        <activity android:name=".MessagingActivity" />
+        <activity android:name=".EditMyAdActivity2" />
+        <activity android:name=".EditMyAdActivity" />
+        <activity android:name=".MyAdsSelectActivity" />
+        <activity android:name=".SelectAdsActivity" />
+        <activity android:name=".ViewProfileActivity" />
+        <activity android:name=".MyAdsActivity" />
+        <activity android:name=".NewAdActivity2" />
+        <activity android:name=".EditProfileActivity" />
+        <activity android:name=".AboutUsActivity" />
+        <activity android:name=".HomeActivity"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar"/>
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

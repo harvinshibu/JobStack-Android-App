@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    android:elevation="10dp"
+    android:background="@drawable/button_transparent_borderblack"
+    android:layout_height="wrap_content"
+    android:id="@+id/itemConstraintLayout">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+        <TextView
+            android:id="@+id/titleTV"
+            android:layout_width="0dp"
+            android:layout_weight="0.8"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:padding="5dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+        <ImageView
+            android:id="@+id/mapiv"
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:scaleType="center"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_phone"
+            android:visibility="invisible"
+            app:tint="@android:color/white" />
+        <ImageButton
+            android:id="@+id/phoneiv"
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:scaleType="center"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_phone"
+            android:visibility="visible"
+            app:tint="@color/black" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/worktypeTV"
+        android:layout_width="392dp"
+        android:layout_height="38dp"
+        android:paddingLeft="5dp"
+        android:text="About Text"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:textStyle="normal" />
+    <TextView
+        android:id="@+id/postdateTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:textSize="12sp"
+        android:gravity="center|right"
+        android:text="Address"
+        android:textStyle="normal"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:id="@+id/expirydateTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="email|web"
+        android:gravity="right"
+        android:paddingLeft="5dp"
+        android:text="Email and Web address"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:textStyle="normal" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="393dp"
+        android:layout_height="35dp">
+
+        <TextView
+            android:id="@+id/btnTV"
+            android:layout_width="120dp"
+            android:layout_height="28dp"
+
+            android:layout_marginStart="273dp"
+
+            android:layout_marginLeft="273dp"
+            android:gravity="center"
+            android:text="View More..."
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

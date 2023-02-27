@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1010917854070",
+    "firebase_url": "https://placements-app-f4235.firebaseio.com",
+    "project_id": "placements-app-f4235",
+    "storage_bucket": "placements-app-f4235.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010917854070:android:d3b744c165ee62230f4857",
+        "android_client_info": {
+          "package_name": "com.harvin.placementapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1010917854070-2bi6vn7kqqshbe6n496mc2f2l4kspkhb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZN6IG1yR1MEhStQLMP6fPS5-g95Ja4aM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1010917854070-2bi6vn7kqqshbe6n496mc2f2l4kspkhb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

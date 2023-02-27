@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_chats"
+        android:icon="@drawable/ic_chat_bubble"
+        android:title="Chats" />
+    <item
+        android:id="@+id/nav_add"
+        android:icon="@drawable/ic_add_plus"
+        android:title="New Job" />
+    <item
+        android:id="@+id/nav_myads"
+        android:icon="@drawable/ic_ads"
+        android:title="My Ads" />
+    <item
+        android:id="@+id/nav_account"
+        android:icon="@drawable/ic_account"
+        android:title="Account" />
+
+</menu>
